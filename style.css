@@ -1,3 +1,4 @@
+
 body{
   text-align: center;
 background-color: darkblue;
@@ -34,3 +35,29 @@ padding: 8px 16px;
 color: brown; background-color: grey; font-size:32px;
 padding: 8px 16px;
   text-decoration: none; border-style: solid; border-color: gold;}
+
+.mvpstat {
+  float: left;
+}
+
+table, td, th {
+  border: 1px solid red;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse; color: black; background-color: white
+}
+td {
+  text-align: center;
+}
+td:hover {background-color: yellow;}
+
+.mvppara{
+color: Black; background-color: grey; font-size:24px;
+padding: 8px 16px;
+  text-decoration: none; border-style: solid; border-radius: 30px; border-color: red;}
+
+.mvppara {
+  float: right;
+}
