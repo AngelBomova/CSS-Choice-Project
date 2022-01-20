@@ -74,3 +74,40 @@ border-style: dotted; border-color: orange; padding: 30px;
 .suns {
   border-radius: 75%;
 }
+
+.catwave {
+  border: 10px solid Red;
+  border-radius: 4px;
+  padding: 5px;}
+
+.grumpcat {
+  border: 10px solid White;
+  border-radius: 4px;
+  padding: 5px; float: right}
+
+  .snipercat {
+  border: 10px solid Blue;
+  border-radius: 4px;
+  padding: 5px; float: left}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px green;
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown {
+  color: green; font-size: 24px
+}
